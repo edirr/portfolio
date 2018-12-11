@@ -12,10 +12,11 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div className="landing">
+        <div id="home"className="landing">
         <h1 className="first-name">Eric</h1>
         <h1 className="last-name">Dirr</h1>
         <h1 className="dev">Web Developer</h1>
+        <a className="contact-button" href="#about">Enter</a>
         </div>
         <div className="about" id="about">
           <nav className="nav">
@@ -81,7 +82,7 @@ class App extends Component {
               Teacher friendly data tracker to keep record of students' progress in various subjects. Built with React and Ruby on Rails to display data presented in visually appealing interactive charts using Chart.js.
               </p>
               </div>
-              <a className="contact-button">Check out the code</a>
+              <a className="contact-button" href="https://git.generalassemb.ly/edirr/project_4" target="_blank" rel="noopener noreferrer">Check out the code</a>
             </div>
             <div className="project">
               <div className=" project-image project-image-2">
@@ -94,7 +95,7 @@ class App extends Component {
         Baseball fans rejoice! Users can log in to their account and search for their favorite players and add them to their own deck of players and checkout out their historic stats. Built with React and Express to allow for a quick way to learn more about your Hall of Fame favorites.
               </p>
               </div>
-              <a className="contact-button">Check out the code</a>
+              <a className="contact-button" href="https://git.generalassemb.ly/team-b/baseball-hof-deck" target="_blank" rel="noopener noreferrer">Check out the code</a>
             </div>
             <div className="project">
               <div className=" project-image project-image-3">
@@ -107,7 +108,7 @@ class App extends Component {
         Collaboratively worked with UX/UI to modernize an outdated NYC Swiss cafe's website. Used HTML, CSS and JavaScript to create a sleek mobile friendly site. Users can quickly navigate to the menu and find favorite Swiss dishes and the restaurant's location.
               </p>
               </div>
-              <a className="contact-button">Check out the code</a>
+              <a className="contact-button" href="https://git.generalassemb.ly/cafeSelect/cafe2" target="_blank" rel="noopener noreferrer">Check out the code</a>
             </div>
           </div>
         </div>
