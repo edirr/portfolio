@@ -84,7 +84,11 @@ body{
 }
 .about-content {
   width: 100%;
-  background: #D85153;
+  /*background: #D85153;*/
+  background-image:
+    linear-gradient(
+      #D85153 35%, rgba(32,49,69,.98)
+    );
 }
 
 .image-with-links{
@@ -233,12 +237,12 @@ body{
 .project-image{
  background-repeat: no-repeat;
   background-size: contain;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 .project-image-1{
   background-image: url(images/Data-tracker-screenshot1.png);
   width: 20rem;
-  height: 12rem;
+  height: 11rem;
 }
 .project-image-2{
   background-image: url(images/Screen Shot 2018-12-11 at 2.38.31 PM.png);
@@ -335,5 +339,195 @@ body{
 
 .footer p {
   font-size: 1.2rem;
+}
+
+@media (min-width: 40rem){
+  .landing{
+    padding-top: 9rem;
+    /*background: blue;*/
+  }
+  .links a {
+  font-size: 3.2rem;
+  color: black;
+  margin: .4rem .6rem;
+}
+  .project-image-1{
+  width: 30rem;
+  height: 16rem;
+}
+.project-image-2{
+  width: 30rem;
+  height: 18rem;
+}
+.project-image-3{
+  width: 21rem;
+  height: 22.5rem;
+}
+  }
+
+@media (min-width: 60rem){
+   .landing{
+    /*background: red;*/
+    padding-top: 5rem;
+  }
+  .first-name{
+  padding-right: 4rem;
+  margin: 0;
+}
+.last-name{
+  padding-left: 4rem;
+   margin: 0;
+}
+.first-name:first-letter {
+    font-size: 8rem;
+    color: #D85153;
+}
+.last-name:first-letter {
+    font-size: 8rem;
+    color: #D85153;
+}
+.dev{
+  font-size: 4rem;
+  font-family: 'Pacifico', cursive;
+}
+  .links a {
+  font-size: 3.6rem;
+}
+.bio{
+font-size:1.5rem;
+}
+.skills-list div {
+  margin: .6rem .2rem;
+  width: 5rem;
+  height: 5rem;
+}
+.project-heading{
+  font-size: 3.6rem;
+
+}
+.project-name{
+  font-size: 2.7rem;
+
+}
+.project-info{
+  padding: 0 3rem;
+}
+.project-info p {
+  color:white;
+  font-size: 1.5rem;
+}
+}
+@media (min-width: 70rem){
+ .landing{
+  /*background: yellow;*/
+ }
+ .bio{
+  padding: 0 3rem;
+ }
+.project-image-1{
+  width: 40.5rem;
+  height: 22.3rem;
+}
+.project-image-2{
+  width: 40.5rem;
+  height: 24.3rem;
+}
+.project-image-3{
+  width: 28.35rem;
+  height: 30.38rem;
+}
+.project-info{
+  padding: 0 5rem;
+}
+.contact p {
+  text-align: center;
+  font-size:1.2rem;
+}
+.contact h1 {
+  margin: .5rem 0 0 0;
+  font-size: 2.7rem;
+}
+.contact h2 {
+  margin: .5rem 0 0 0;
+  font-size: 1.8rem;
+}
+}
+
+@media (min-width: 80rem){
+ .landing{
+ /*background: purple;*/
+ }
+ .profile-image{
+  width: 17rem;
+  height: 17rem;
+}
+}
+
+@media (min-width: 90rem){
+  .landing{
+    /*background-color: green;*/
+    padding-top: 4.5rem;
+  }
+  .landing a{
+    font-size:2rem;
+  }
+  .first-name{
+  font-size: 5rem;
+  padding-right: 4rem;
+  margin: 0;
+}
+.last-name{
+  font-size: 5rem;
+  padding-left: 4rem;
+   margin: 0;
+}
+.first-name:first-letter {
+    font-size: 9rem;
+    color: #D85153;
+}
+.last-name:first-letter {
+    font-size: 9rem;
+    color: #D85153;
+}
+.dev{
+  font-size: 5rem;
+  font-family: 'Pacifico', cursive;
+}
+}
+
+@media (min-width: 100rem){
+.landing{
+  /*background: lightblue*/
+}
+ .profile-image{
+  width: 18rem;
+  height: 18rem;
+}
+  .links a {
+  font-size: 3.8rem;
+}
+.skills-list div {
+  margin: .6rem .2rem;
+  width: 6rem;
+  height: 6rem;
+}
+.project-image-1{
+  width: 45rem;
+  height: 24.3rem;
+}
+.project-image-2{
+  width: 44.5rem;
+  height: 27rem;
+}
+.project-image-3{
+  width: 31rem;
+  height: 33rem;
+}
+}
+
+@media (min-width: 110rem){
+.landing{
+/*  background: orange;*/
+}
 }
 
