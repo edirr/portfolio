@@ -13,6 +13,9 @@ class App extends Component {
       <div className="App">
 
         <div id="home"className="landing">
+          <div class="star s-1"></div>
+          <div class="star s-2"></div>
+          <div class="star s-3"></div>
         <h1 className="first-name">Eric</h1>
         <h1 className="last-name">Dirr</h1>
         <h1 className="dev">Web Developer</h1>
