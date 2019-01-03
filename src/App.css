@@ -378,6 +378,10 @@ body{
 .defender-buttons{
   display: flex;
 }
+.defender-buttons a{
+  text-align: center;
+}
+
 .footer {
   height: 5rem;
   right: 0;
