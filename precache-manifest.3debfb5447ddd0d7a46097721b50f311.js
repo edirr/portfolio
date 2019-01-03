@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "f68517c320a1486d6631",
-    "url": "/edirr/portfolio/static/css/main.6c5d201e.chunk.css"
+    "revision": "cb74fb14f0a666ab0624",
+    "url": "/edirr/portfolio/static/css/main.77fd3c23.chunk.css"
   },
   {
-    "revision": "f68517c320a1486d6631",
-    "url": "/edirr/portfolio/static/js/main.f68517c3.chunk.js"
+    "revision": "cb74fb14f0a666ab0624",
+    "url": "/edirr/portfolio/static/js/main.cb74fb14.chunk.js"
   },
   {
     "revision": "13a1f5f66d31548c62fa",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/edirr/portfolio/static/media/Screen Shot 2018-12-11 at 2.38.31 PM.4c9cacf3.png"
   },
   {
-    "revision": "0cc08429888a63d0b64232d94e23f8f2",
+    "revision": "2420c51716edaad41add9dfe4c68f85e",
     "url": "/edirr/portfolio/index.html"
   }
 ];
