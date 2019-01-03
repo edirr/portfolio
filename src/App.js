@@ -105,13 +105,15 @@ class App extends Component {
               </div>
               <div className="project-info">
               <h3 className="project-name">
-              Cafe Select
+              Defender Dodge
               </h3>
               <p>
-        Collaboratively worked with UX/UI to modernize an outdated NYC Swiss cafe's website. Used HTML, CSS and JavaScript to create a sleek mobile friendly site. Users can quickly navigate to the menu and find favorite Swiss dishes and the restaurant's location.
-              </p>
+A classic arcade style game built with HTML, CSS, and vanilla JavaScript where you must maneuver your player in and out of the oncoming defenders by using the left and right arrow keys. The defenders will appear at the top of the page and run towards you trying to tackle you. As you proceed to the next level the defenders will appear quicker and with more of them, it becomes increasingly difficult to avoid their tackles.               </p>
               </div>
-              <a className="contact-button" href="https://git.generalassemb.ly/cafeSelect/cafe2" target="_blank" rel="noopener noreferrer">Check out the code</a>
+              <div className="defender-buttons">
+              <a className="contact-button defender-buttons" href="https://git.generalassemb.ly/edirr/Defender-Dodge" target="_blank" rel="noopener noreferrer">Check out the code</a>
+              <a className="contact-button defender-buttons" href="https://pages.git.generalassemb.ly/edirr/Defender-Dodge/" target="_blank" rel="noopener noreferrer">Play the game</a>
+              </div>
             </div>
           </div>
         </div>
