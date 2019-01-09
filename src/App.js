@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronCircleDown, faHome, faEnvelope, faSignInAlt, faUser, faUnlock, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
+import { faChevronCircleDown, faHome, faEnvelope, faSignInAlt, faUser, faUnlock, faCheckCircle, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import {fab} from "@fortawesome/free-brands-svg-icons";
 import './App.css';
 
-library.add(fab, faChevronCircleDown, faHome, faEnvelope, faSignInAlt, faUser, faUnlock, faCheckCircle );
+library.add(fab, faChevronCircleDown, faHome, faEnvelope, faSignInAlt, faUser, faUnlock, faCheckCircle , faFileAlt );
 
 class App extends Component {
   render() {
@@ -45,6 +45,7 @@ class App extends Component {
                 <a href="https://git.generalassemb.ly/edirr" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="github-icon" icon={['fab', 'github']} /></a>
                 <a href="https://www.linkedin.com/in/eric-dirr/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="linkedin-icon" icon={['fab', 'linkedin']} /></a>
                 <a href="#contact"><FontAwesomeIcon className="email-icon" icon="envelope" /></a>
+                <a href="https://www.canva.com/design/DADJEgwiTLw/vkByeZ0jomNXmuBDytKxXQ/view?utm_content=DADJEgwiTLw&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" ><FontAwesomeIcon className="resume-icon" icon="file-alt" /></a>
               </div>
             </div>
             <div className="bio">
