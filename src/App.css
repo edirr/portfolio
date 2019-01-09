@@ -511,7 +511,7 @@ font-size:1.5rem;
 
 @media (min-width: 80rem){
  .landing{
- background: purple;
+ /*background: purple;*/
  }
  .profile-image{
   width: 17rem;
@@ -521,7 +521,7 @@ font-size:1.5rem;
 
 @media (min-width: 90rem){
   .landing{
-    background-color: green;
+    /*background-color: green;*/
     padding-top: 0;
   }
   .landing a{
@@ -556,7 +556,7 @@ font-size:1.5rem;
 
 @media (min-width: 100rem){
 .landing{
-  background: lightblue
+  /*background: lightblue*/
 }
  .profile-image{
   width: 18rem;
