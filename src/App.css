@@ -511,7 +511,7 @@ font-size:1.5rem;
 
 @media (min-width: 80rem){
  .landing{
- /*background: purple;*/
+ background: purple;
  }
  .profile-image{
   width: 17rem;
@@ -521,39 +521,42 @@ font-size:1.5rem;
 
 @media (min-width: 90rem){
   .landing{
-    /*background-color: green;*/
-    padding-top: 4.5rem;
+    background-color: green;
+    padding-top: 0;
   }
   .landing a{
     font-size:2rem;
   }
   .first-name{
-  font-size: 5rem;
+  font-size: 4.5rem;
   padding-right: 4rem;
   margin: 0;
 }
+.enter-button{
+  margin-bottom: 2rem;
+}
 .last-name{
-  font-size: 5rem;
+  font-size: 4.5rem;
   padding-left: 4rem;
    margin: 0;
 }
 .first-name:first-letter {
-    font-size: 9rem;
+    font-size: 8.5rem;
     color: #66B2B2;
 }
 .last-name:first-letter {
-    font-size: 9rem;
+    font-size: 8.5rem;
     color: #66B2B2;
 }
 .dev{
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: 'Pacifico', cursive;
 }
 }
 
 @media (min-width: 100rem){
 .landing{
-  /*background: lightblue*/
+  background: lightblue
 }
  .profile-image{
   width: 18rem;

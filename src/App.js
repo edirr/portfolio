@@ -19,7 +19,7 @@ class App extends Component {
         <h1 className="first-name">Eric</h1>
         <h1 className="last-name">Dirr</h1>
         <h1 className="dev">Web Developer</h1>
-        <a className="contact-button" href="#about">Enter</a>
+        <a className="contact-button enter-button" href="#about">Enter</a>
         </div>
         <div className="about" id="about">
           <nav className="nav">
