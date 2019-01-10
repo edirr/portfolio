@@ -303,6 +303,11 @@ body{
   width: 20rem;
   height: 12rem;
 }
+.project-image-4{
+  background-image: url(images/cafe-select.png);
+  width: 10rem;
+  height: 20rem;
+}
 .project-name{
   margin: 0;
   font-size: 2.3rem;
@@ -419,6 +424,11 @@ body{
   width: 30rem;
   height: 18rem;
 }
+.project-image-4{
+  background-image: url(images/cafe-select.png);
+  width: 16rem;
+  height: 30rem;
+}
   }
 
 @media (min-width: 60rem){
@@ -491,6 +501,10 @@ font-size:1.5rem;
 .project-image-3{
   width: 40.5rem;
   height: 24.3rem;
+}
+.project-image-4{
+  width: 20rem;
+  height: 35.5rem;
 }
 .project-info{
   padding: 0 5rem;

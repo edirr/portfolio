@@ -89,17 +89,18 @@ class App extends Component {
               <a className="contact-button" href="https://git.generalassemb.ly/edirr/project_4" target="_blank" rel="noopener noreferrer">Check out the code</a>
             </div>
             <div className="project">
-              <div className=" project-image project-image-2">
+              <div className=" project-image project-image-4">
               </div>
               <div className="project-info">
               <h3 className="project-name">
-              Deck of Legends
+              Cafe Select
               </h3>
-              <p>
-        Baseball fans rejoice! Users can log in to their account and search for their favorite players and add them to their own deck of players and checkout out their historic stats. Built with React and Express to allow for a quick way to learn more about your Hall of Fame favorites.
-              </p>
+              <p>Paired with UX/UI to modernize an outdated NYC Swiss cafe's website. Used HTML, CSS and JavaScript to create a sleek mobile friendly site. Users can quickly navigate to the menu and find favorite Swiss dishes and the restaurant's location. </p>
               </div>
-              <a className="contact-button" href="https://git.generalassemb.ly/team-b/baseball-hof-deck" target="_blank" rel="noopener noreferrer">Check out the code</a>
+              <div className="defender-buttons">
+              <a className="contact-button defender-buttons" href="https://git.generalassemb.ly/cafeSelect/cafe2" target="_blank" rel="noopener noreferrer">Check out the code</a>
+              <a className="contact-button defender-buttons" href="https://pages.git.generalassemb.ly/cafeSelect/cafe2/" target="_blank" rel="noopener noreferrer">Website</a>
+              </div>
             </div>
             <div className="project">
               <div className=" project-image project-image-3">
@@ -115,6 +116,19 @@ A classic arcade style game built with HTML, CSS, and vanilla JavaScript where y
               <a className="contact-button defender-buttons" href="https://git.generalassemb.ly/edirr/Defender-Dodge" target="_blank" rel="noopener noreferrer">Check out the code</a>
               <a className="contact-button defender-buttons" href="https://pages.git.generalassemb.ly/edirr/Defender-Dodge/" target="_blank" rel="noopener noreferrer">Play the game</a>
               </div>
+            </div>
+            <div className="project">
+              <div className=" project-image project-image-2">
+              </div>
+              <div className="project-info">
+              <h3 className="project-name">
+              Deck of Legends
+              </h3>
+              <p>
+        Baseball fans rejoice! Users can log in to their account and search for their favorite players and add them to their own deck of players and checkout out their historic stats. Built with React and Express to allow for a quick way to learn more about your Hall of Fame favorites.
+              </p>
+              </div>
+              <a className="contact-button" href="https://git.generalassemb.ly/team-b/baseball-hof-deck" target="_blank" rel="noopener noreferrer">Check out the code</a>
             </div>
           </div>
         </div>
