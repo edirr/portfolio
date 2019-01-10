@@ -365,7 +365,7 @@ body{
   font-weight: bold;
   color: white;
   padding: 1rem 1.5rem;
-  margin:2rem;
+  margin:1rem;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -382,6 +382,7 @@ body{
 }
 .defender-buttons{
   display: flex;
+  flex-direction: column;
 }
 .defender-buttons a{
   text-align: center;
@@ -428,6 +429,9 @@ body{
   background-image: url(images/cafe-select.png);
   width: 16rem;
   height: 30rem;
+}
+.defender-buttons{
+  flex-direction: row;
 }
   }
 
