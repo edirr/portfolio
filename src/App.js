@@ -45,7 +45,7 @@ class App extends Component {
                 <a href="https://git.generalassemb.ly/edirr" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="github-icon" icon={['fab', 'github']} /></a>
                 <a href="https://www.linkedin.com/in/eric-dirr/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="linkedin-icon" icon={['fab', 'linkedin']} /></a>
                 <a href="#contact"><FontAwesomeIcon className="email-icon" icon="envelope" /></a>
-              {/* <a href="./images/resume" download="Eric_Dirr_Resume" target="_blank" ><FontAwesomeIcon className="resume-icon" icon="file-alt" /></a> */}
+              <a href="Eric_Dirr_Resume.pdf" download="Eric_Dirr_Resume" target="_blank" ><FontAwesomeIcon className="resume-icon" icon="file-alt" /></a> {/* */}
               </div>
             </div>
             <div className="bio">
