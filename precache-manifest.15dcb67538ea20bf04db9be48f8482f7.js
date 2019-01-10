@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8cb4e11fd8c7bb3ae9cc",
-    "url": "/static/css/main.6fc39e41.chunk.css"
+    "revision": "fa09a7fc8b7fb2af23e4",
+    "url": "/static/css/main.e150eda5.chunk.css"
   },
   {
-    "revision": "8cb4e11fd8c7bb3ae9cc",
-    "url": "/static/js/main.8cb4e11f.chunk.js"
+    "revision": "fa09a7fc8b7fb2af23e4",
+    "url": "/static/js/main.fa09a7fc.chunk.js"
   },
   {
     "revision": "c3ff798dd5c37a49d1c6",
@@ -20,6 +20,10 @@ self.__precacheManifest = [
     "url": "/static/media/Data-tracker-screenshot1.4c53b851.png"
   },
   {
+    "revision": "7da61d70863c661a0c40ea8e942bc354",
+    "url": "/static/media/cafe-select.7da61d70.png"
+  },
+  {
     "revision": "3e592e2c5f47a857a05c0f3676b4ac09",
     "url": "/static/media/defender-dodge.3e592e2c.png"
   },
@@ -28,7 +32,7 @@ self.__precacheManifest = [
     "url": "/static/media/Screen Shot 2018-12-11 at 2.38.31 PM.4c9cacf3.png"
   },
   {
-    "revision": "288db736018fc4dee04c579040ce345c",
+    "revision": "b3bec4066a22fe51258be4fbc172e2a9",
     "url": "/index.html"
   }
 ];
