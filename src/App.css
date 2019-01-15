@@ -156,7 +156,7 @@ ul{
   align-items: center;
 }
 .profile-image{
-  margin-top: 4rem;
+  margin-top: 4.5rem;
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
   width: 15rem;
@@ -254,7 +254,7 @@ ul{
 .project-heading{
   align-self: flex-start;
   margin:0;
-  padding: 3.5rem 1rem;
+  padding: 4rem 1rem;
   font-size: 3rem;
   font-weight: bold;
   color: #66B2B2;
