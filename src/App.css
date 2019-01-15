@@ -300,6 +300,7 @@ ul{
   margin-top: 2.5rem;
 }
 .project-image-1{
+  margin-top: 0;
   background-image: url(images/Data-tracker-screenshot1.png);
   width: 20rem;
   height: 11rem;
