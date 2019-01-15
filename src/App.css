@@ -109,6 +109,7 @@ body{
 }
 ul{
   margin:0;
+  padding:.2rem;
 }
 .nav a {
   padding: .2rem 0;
