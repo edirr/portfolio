@@ -3,6 +3,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronCircleDown, faHome, faEnvelope, faSignInAlt, faUser, faUnlock, faCheckCircle, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import {fab} from "@fortawesome/free-brands-svg-icons";
+import Scrollspy from 'react-scrollspy';
 import './App.css';
 
 library.add(fab, faChevronCircleDown, faHome, faEnvelope, faSignInAlt, faUser, faUnlock, faCheckCircle , faFileAlt );
@@ -21,8 +22,7 @@ class App extends Component {
         <h1 className="dev">Web Developer</h1>
         <a className="contact-button enter-button" href="#about">Enter</a>
         </div>
-        <div className="about" id="about">
-          <nav className="nav">
+        <Scrollspy items={ ['home', 'about', 'projects', 'contact'] } className="nav" currentClassName="is-current">
             <div className="nav-item">
             <a href="#home">Home</a>
             </div>
@@ -35,7 +35,9 @@ class App extends Component {
             <div className="nav-item">
             <a href="#contact">Contact</a>
             </div>
-          </nav>
+          </Scrollspy>
+        <div className="about" id="about">
+
 
           <div className="about-content">
             <div className="image-with-links">
