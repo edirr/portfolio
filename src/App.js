@@ -120,6 +120,19 @@ A classic arcade style game built with HTML, CSS, and vanilla JavaScript where y
               </div>
             </div>
             <div className="project">
+              <div className=" project-image project-image-5">
+              </div>
+              <div className="project-info">
+              <h3 className="project-name">
+              HTML Canvas
+              </h3>
+              <p>
+        HTML canvas used to make interactive bouncing balls. Made using only JavaScript. Hover your mouse over the balls and watch them grow!
+              </p>
+              </div>
+              <a className="contact-button" href="https://codepen.io/edirr/pen/NomzwB?editors=0010" target="_blank" rel="noopener noreferrer">Check out the CodePen</a>
+            </div>
+            <div className="project">
               <div className=" project-image project-image-2">
               </div>
               <div className="project-info">
@@ -132,6 +145,7 @@ A classic arcade style game built with HTML, CSS, and vanilla JavaScript where y
               </div>
               <a className="contact-button" href="https://git.generalassemb.ly/team-b/baseball-hof-deck" target="_blank" rel="noopener noreferrer">Check out the code</a>
             </div>
+            
           </div>
         </div>
         <div id="contact" className="contact">
