@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Bungee|Muli:900i|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+
+
 
 *{
   box-sizing: border-box;
@@ -12,9 +15,10 @@ body{
   font-family: 'Muli', sans-serif;
 }
 .landing{
-  padding-top: 5rem;
+  padding-top: 4rem;
   text-align: center;
-  font-family: 'Bungee', cursive;
+  /* font-family: 'Bungee', cursive; */
+  font-family: 'Montserrat', sans-serif;
   z-index: -1;
   background-image:url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-position: center;
@@ -72,11 +76,11 @@ body{
 }
 
 .first-name{
-  padding-right: 3rem;
+  padding-right: 4rem;
   margin: 0;
 }
 .last-name{
-  padding-left: 3rem;
+  padding-left: 4rem;
    margin: 0;
 }
 .first-name:first-letter {
@@ -88,9 +92,33 @@ body{
     color: #66B2B2;
 }
 .dev{
+  margin: 0;
   font-size: 3rem;
+  margin-bottom: 1rem;
   font-family: 'Pacifico', cursive;
 }
+.enter-button{
+  background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  font-weight: bold;
+  color: white;
+  padding: 1rem 1.5rem;
+  /* margin-top: 2rem; */
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.enter-button:hover{
+  background-color: #ce0606;
+  cursor: pointer;
+}
+
+.enter-button:active {
+  box-shadow: none;
+  top: 5px;
+}
+
 
 .nav{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
@@ -565,34 +593,34 @@ font-size:1.5rem;
 @media (min-width: 90rem){
   .landing{
     /*background-color: green;*/
-    padding-top: 0;
+    /* padding-top: 0; */
   }
   .landing a{
-    font-size:2rem;
+    /* font-size:2rem; */
   }
   .first-name{
-  font-size: 4.5rem;
+  /* font-size: 4rem; */
   padding-right: 4rem;
   margin: 0;
 }
-.enter-button{
+/* .enter-button{
   margin-bottom: 2rem;
-}
+} */
 .last-name{
-  font-size: 4.5rem;
+  /* font-size: 4rem; */
   padding-left: 4rem;
    margin: 0;
 }
 .first-name:first-letter {
-    font-size: 8.5rem;
+    font-size: 8rem;
     color: #66B2B2;
 }
 .last-name:first-letter {
-    font-size: 8.5rem;
+    font-size: 8rem;
     color: #66B2B2;
 }
 .dev{
-  font-size: 4.5rem;
+  /* font-size: 4.5rem; */
   font-family: 'Pacifico', cursive;
 }
 }
