@@ -76,10 +76,12 @@ body{
 }
 
 .first-name{
+  font-size:2rem;
   padding-right: 4rem;
   margin: 0;
 }
 .last-name{
+  font-size:2rem;
   padding-left: 4rem;
    margin: 0;
 }
