@@ -14,9 +14,9 @@ class App extends Component {
       <div className="App">
 
         <div id="home"className="landing">
-          <div class="star s-1"></div>
-          <div class="star s-2"></div>
-          <div class="star s-3"></div>
+          <div className="star s-1"></div>
+          <div className="star s-2"></div>
+          <div className="star s-3"></div>
         <h1 className="first-name">Eric</h1>
         <h1 className="last-name">Dirr</h1>
         <h1 className="dev">Web Developer</h1>
@@ -44,7 +44,7 @@ class App extends Component {
               <div className="profile-image">
               </div>
               <div className="links">
-                <a href="https://git.generalassemb.ly/edirr" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="github-icon" icon={['fab', 'github']} /></a>
+                <a href="https://github.com/edirr" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="github-icon" icon={['fab', 'github']} /></a>
                 <a href="https://www.linkedin.com/in/eric-dirr/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className="linkedin-icon" icon={['fab', 'linkedin']} /></a>
                 <a href="#contact"><FontAwesomeIcon className="email-icon" icon="envelope" /></a>
               <a href="Eric_Dirr_Resume.pdf" download="Eric_Dirr_Resume" target="_blank" ><FontAwesomeIcon className="resume-icon" icon="file-alt" /></a> {/* */}
@@ -85,10 +85,13 @@ class App extends Component {
               Tracked
               </h3>
               <p>
-              Teacher friendly data tracker to keep record of students' progress in various subjects. Built with React and Ruby on Rails to display data presented in visually appealing interactive charts using Chart.js.
+              Teacher friendly data tracker to keep record of students' progress in various subjects. Built with React, Node.js, Express, Sequelize and PostgreSQL to display data presented in visually appealing interactive charts using Chart.js.
               </p>
               </div>
-              <a className="contact-button" href="https://git.generalassemb.ly/edirr/project_4" target="_blank" rel="noopener noreferrer">Check out the code</a>
+              <div className="defender-buttons">
+              <a className="contact-button" href="https://github.com/edirr/tracked" target="_blank" rel="noopener noreferrer">Check out the code</a>
+              <a className="contact-button" href="https://tracked-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live App</a>
+              </div>
             </div>
             <div className="project">
               <div className=" project-image project-image-4">
