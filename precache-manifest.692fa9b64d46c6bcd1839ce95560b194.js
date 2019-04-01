@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "efd8b15ce85acabb4c0e",
-    "url": "/static/css/main.24c5bc58.chunk.css"
+    "revision": "f90608c5e3136d69a894",
+    "url": "/static/css/main.e7ed1ced.chunk.css"
   },
   {
-    "revision": "efd8b15ce85acabb4c0e",
-    "url": "/static/js/main.efd8b15c.chunk.js"
+    "revision": "f90608c5e3136d69a894",
+    "url": "/static/js/main.f90608c5.chunk.js"
   },
   {
     "revision": "1d68409f22c9969b9379",
@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/static/media/cafe-select.7da61d70.png"
   },
   {
+    "revision": "445f63986b27b857eb92afb6ced84ed1",
+    "url": "/static/media/weather-app-screenshot.445f6398.png"
+  },
+  {
     "revision": "3e592e2c5f47a857a05c0f3676b4ac09",
     "url": "/static/media/defender-dodge.3e592e2c.png"
   },
@@ -32,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/Screen Shot 2018-12-11 at 2.38.31 PM.4c9cacf3.png"
   },
   {
-    "revision": "43c9117e4076f12d7a36b3cc73f05b73",
+    "revision": "f3c76f6941a358239f40d67f3647aa29",
     "url": "/index.html"
   }
 ];
