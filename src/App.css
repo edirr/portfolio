@@ -335,6 +335,7 @@ ul{
   width: 20rem;
   height: 11rem;
 }
+
 .project-image-2{
   background-image: url(images/Screen Shot 2018-12-11 at 2.38.31 PM.png);
   width: 20rem;
@@ -354,6 +355,11 @@ ul{
   background-image: url(https://media.giphy.com/media/5zjdiW27DDT2C7QAdg/giphy.gif);
   width: 20rem;
   height: 12rem;
+}
+.project-image-6{
+  background-image: url(images/weather-app-screenshot.png);
+  width: 20rem;
+  height: 11rem;
 }
 
 .project-name{
@@ -481,6 +487,10 @@ ul{
   width: 30rem;
   height: 18rem;
 }
+.project-image-6{
+  width: 30rem;
+  height: 16rem;
+}
 .defender-buttons{
   flex-direction: row;
 }
@@ -564,6 +574,10 @@ font-size:1.5rem;
 .project-image-5{
   width: 40.5rem;
   height: 24.3rem;
+}
+.project-image-6{
+  width: 40.5rem;
+  height: 22.3rem;
 }
 .project-info{
   padding: 0 5rem;
@@ -658,6 +672,10 @@ font-size:1.5rem;
 .project-image-5{
   width: 44.5rem;
   height: 27rem;
+}
+.project-image-6{
+  width: 45rem;
+  height: 24.3rem;
 }
 }
 

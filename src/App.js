@@ -94,6 +94,22 @@ class App extends Component {
               </div>
             </div>
             <div className="project">
+              <div className="project-image project-image-6">
+              </div>
+              <div className="project-info">
+              <h3 className="project-name">
+              Weather App
+              </h3>
+              <p>
+              This weather app allows users to search for current weather and a five day forecast for a given city. A weather scene is conditionally rendered depending on the current forecast.Built using React and the open weather api.
+              </p>
+              </div>
+              <div className="defender-buttons">
+              <a className="contact-button" href="https://github.com/ED-CVL/weather_app" target="_blank" rel="noopener noreferrer">Check out the code</a>
+              <a className="contact-button" href="https://weather-app-ed-cvl.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live App</a>
+              </div>
+            </div>
+            <div className="project">
               <div className=" project-image project-image-4">
               </div>
               <div className="project-info">
